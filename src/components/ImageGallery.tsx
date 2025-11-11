@@ -39,6 +39,7 @@ export const ImageGallery = ({ images }: ImageGalleryProps) => {
                 }}
               />
             </div>
+            <a href="imageUrl">{imageUrl}</a>
           </div>
         ))}
       </div>
