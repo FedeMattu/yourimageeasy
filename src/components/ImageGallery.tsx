@@ -39,7 +39,7 @@ export const ImageGallery = ({ images }: ImageGalleryProps) => {
                 }}
               />
             </div>
-            <a href="imageUrl">{imageUrl}</a>
+            <a className="text-muted-foreground text-lg" target="_blank" href={imageUrl}>{imageUrl}</a>
           </div>
         ))}
       </div>

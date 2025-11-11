@@ -52,7 +52,7 @@ export const SearchForm = ({ onSearch, isLoading }: SearchFormProps) => {
               type="url"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
-              placeholder="https://example.com"
+              placeholder="https://aryion.com/g4/latest.php?type_search=Media"
               disabled={isLoading}
               className="w-full"
             />
