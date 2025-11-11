@@ -13,6 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+      },
+      boxShadow: {
+        'gallery-sm': '0 2px 8px rgba(0, 0, 0, 0.04)',
+        'gallery-md': '0 4px 12px rgba(0, 0, 0, 0.06)',
+        'gallery-lg': '0 8px 24px rgba(0, 0, 0, 0.08)',
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
