@@ -45,20 +45,20 @@ export const SearchForm = ({ onSearch, isLoading }: SearchFormProps) => {
         <div className="space-y-4">
           <div>
             <label htmlFor="url" className="block text-sm font-medium text-foreground mb-2">
-              Website URL
+              Wibsite URL
             </label>
             <Input
               id="url"
               type="url"
               value={url}
               onChange={(e) => setUrl(e.target.value)}
-              placeholder="https://aryion.com/g4/latest.php?type_search=Media"
+              placeholder="https://example.com"
               disabled={isLoading}
               className="w-full"
             />
           </div>
           
-          <div>
+          {/* <div>
             <label htmlFor="keywords" className="block text-sm font-medium text-foreground mb-2">
               Keywords (optional)
             </label>
@@ -71,7 +71,7 @@ export const SearchForm = ({ onSearch, isLoading }: SearchFormProps) => {
               disabled={isLoading}
               className="w-full"
             />
-          </div>
+          </div> */}
         </div>
 
         <Button 
